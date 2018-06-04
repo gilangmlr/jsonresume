@@ -33,10 +33,11 @@
       "position": "Part-Time Front-End Developer",
       "website": "https://www.bukalapak.com/",
       "startDate": "2018-03-07",
-      "endDate": "2018-05-21",
+      "endDate": "",
       "summary": "Bukalapak is one of the leading online marketplace in Indonesia and a Unicorn company, owned and run by PT. Bukalapak.",
       "highlights": [
-        "Help Core FE Squad maintain Wingman (mobile web) project"
+        "Help Core FE maintain various projets", "Wingman, Bukalapak's mobile web front end",
+        "Shelf, Bukalapak's centralized front end documentations", "Tracker-js, Bukalapak's data tracking utility"
       ]
     },
     {
@@ -47,7 +48,7 @@
       "endDate": "2018-03-07",
       "summary": "Bukalapak is one of the leading online marketplace in Indonesia and a Unicorn company, owned and run by PT. Bukalapak.",
       "highlights": [
-        "Work on Wingman (mobile web) project to rewrite product detail page using Vue.js and Bukalapak API"
+        "Worked on Wingman (mobile web) project to rewrite product detail page using Vue.js and Bukalapak API"
       ]
     },
     {
@@ -146,6 +147,8 @@
       "keywords": [
         "Node.js",
         "npm",
+        "TypeScript",
+        "Jest",
         "Express.js",
         "Vue.js",
         "ReactJS"
