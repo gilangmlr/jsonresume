@@ -2,7 +2,7 @@
   "basics": {
     "name": "Gilang Gumilar",
     "label": "Software Engineer",
-    "picture": "",
+    "picture": "https://avatars3.githubusercontent.com/u/15117750",
     "email": "gilangmlr@gmail.com",
     "phone": "(+62) 813-8658-5941",
     "website": "https://gilangmlr.github.io/",
@@ -29,19 +29,19 @@
   },
   "work": [
     {
-      "company": "Bukalapak",
+      "company": "PT. Bukalapak.com",
       "position": "Part-Time Front-End Developer",
       "website": "https://www.bukalapak.com/",
       "startDate": "2018-03-07",
       "endDate": "",
       "summary": "Bukalapak is one of the leading online marketplace in Indonesia and a Unicorn company, owned and run by PT. Bukalapak.",
       "highlights": [
-        "Help Core FE maintain various projets", "Wingman, Bukalapak's mobile web front end",
+        "Help Core FE maintain various projects", "Nimbus, Bukalapak's Vue UI Component Library ", "Wingman, Bukalapak's mobile web front end",
         "Shelf, Bukalapak's centralized front end documentations", "Tracker-js, Bukalapak's data tracking utility"
       ]
     },
     {
-      "company": "Bukalapak",
+      "company": "PT. Bukalapak.com",
       "position": "Front-End Developer Intern",
       "website": "https://www.bukalapak.com/",
       "startDate": "2017-12-27",
@@ -64,12 +64,12 @@
       ]
     },
     {
-      "company": "Sribulancer",
+      "company": "Self Employed",
       "position": "Freelancer",
       "website": "https://www.sribulancer.com/id/users/gilangmlr",
       "startDate": "2017-03-01",
       "endDate": "2017-12-01",
-      "summary": "Sribulancer is a site that help businesses find freelance programmers, copywriters, video makers, data entry and other talents.",
+      "summary": "Worked as a freelance software engineer.",
       "highlights": [
         "Delivered several projects"
       ]
