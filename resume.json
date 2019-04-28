@@ -6,7 +6,7 @@
     "email": "gilangmlr@gmail.com",
     "phone": "(+62) 813-8658-5941",
     "website": "https://gilangmlr.github.io/",
-    "summary": "I am a passionate programmer. I like to learn many things to keep up with fast-paced technological growth.",
+    "summary": "Passionate Software Engineer. Life-long learner. Love to learn many things.",
     "location": {
       "address": "BPA I DD 18, Pagedangan",
       "postalCode": "15339",
@@ -30,25 +30,37 @@
   "work": [
     {
       "company": "PT. Bukalapak.com",
-      "position": "Part-Time Front-End Developer",
+      "position": "Part-time Front-end Engineer",
       "website": "https://www.bukalapak.com/",
       "startDate": "2018-03-07",
-      "endDate": "",
       "summary": "Bukalapak is one of the leading online marketplace in Indonesia and a Unicorn company, owned and run by PT. Bukalapak.",
       "highlights": [
-        "Help Core FE maintain various projects", "Nimbus, Bukalapak's Vue UI Component Library ", "Wingman, Bukalapak's mobile web front end",
-        "Shelf, Bukalapak's centralized front end documentations", "Tracker-js, Bukalapak's data tracking utility"
+        "Created Bukalapak's internal dashboard admin for Core Trust and Safety. (Vue.js, VueX, Vuetify, Express.js)",
+        "Created Bukalapak's Vue UI Component Library. (Vue.js, Storybook, Jest, SASS)",
+        "Maintained Bukalapak's mobile web front end (Vue.js, VueX), Buakalapak's centralized front end documentations (Express.js), Bukalapak's front-end data tracking utility (JavaScript)."
+      ]
+    },
+    {
+      "company": "GoriTax",
+      "position": "Part-time Full Stack Engineer",
+      "website": "https://www.gori-tax.id/",
+      "startDate": "2019-01-07",
+      "endDate": "2019-04-07",
+      "summary": "GoriTax is a curated tax and accounting experts as a service.",
+      "highlights": [
+        "Designed the database, created the backend's RESTful API, and created the infrastructure. (SQL, PostgreSQL, Python, Django, Django REST framework, Docker, Kubernetes, AWS, Kops, Gitlab CI/CD)",
+        "Created the frontend with a front-end engineer. (ReactJS, Redux, Material-UI)"
       ]
     },
     {
       "company": "PT. Bukalapak.com",
-      "position": "Front-End Developer Intern",
+      "position": "Front-end Engineer Intern",
       "website": "https://www.bukalapak.com/",
       "startDate": "2017-12-27",
       "endDate": "2018-03-07",
       "summary": "Bukalapak is one of the leading online marketplace in Indonesia and a Unicorn company, owned and run by PT. Bukalapak.",
       "highlights": [
-        "Worked on Wingman (mobile web) project to rewrite product detail page using Vue.js and Bukalapak API"
+        "Rewrote the product detail page on mobile web using Vue.js and Bukalapak's RESTful API. (Vue.js)"
       ]
     },
     {
@@ -57,21 +69,10 @@
       "website": "https://www.cs.ui.ac.id/",
       "startDate": "2017-09-01",
       "endDate": "2017-12-01",
-      "summary": "Assisted lecturer at Web Design and Programming (International Class) course",
+      "summary": "Assisted the lecturer of Web Design and Programming (International Class) course",
       "highlights": [
-        "Assisted students at lab",
-        "Created weekly lab tutorial with other assitants"
-      ]
-    },
-    {
-      "company": "Self Employed",
-      "position": "Freelancer",
-      "website": "https://www.sribulancer.com/id/users/gilangmlr",
-      "startDate": "2017-03-01",
-      "endDate": "2017-12-01",
-      "summary": "Worked as a freelance software engineer.",
-      "highlights": [
-        "Delivered several projects"
+        "Assisted students in lab sessions.",
+        "Created weekly lab tutorials with other assitants."
       ]
     },
     {
@@ -82,7 +83,7 @@
       "endDate": "2017-02-01",
       "summary": "Jojonomic provides services that can easily control company expenses with Real Time Approval.",
       "highlights": [
-        "Developed web app features using HTML, CSS, JS"
+        "Developed web app features using HTML, CSS, JS."
       ]
     }
   ],
@@ -95,19 +96,18 @@
       "endDate": "2016-09-01",
       "summary": "freeCodeCamp is a nonprofit organization that consists of an interactive learning web platform, an online community forum, chat rooms, Medium publications, and local organizations that intend to make learning web development accessible to anyone.",
       "highlights": [
-        "Achieved “Frond End Development Certification” from freeCodeCamp",
+        "Achieved “Frond End Development Certification” from freeCodeCamp.",
         "Created several projects to achieve the certification which hosted at https://codepen.io/gilangmlr"
       ]
     },
     {
       "organization": "BETIS",
-      "position": "Math Teacher",
-      "website": "",
+      "position": "Math Tutor",
       "startDate": "2016-04-01",
       "endDate": "2016-05-01",
-      "summary": "BETIS (Bimbingan Belajar Gratis) is a free tutoring program from BEM Fasilkom UI for high schooler or equivalent to prepare for national college entrance examination (SBMPTN).",
+      "summary": "BETIS (Bimbingan Belajar Gratis) is a free tutoring program from BEM Fasilkom UI for high school students or equivalent to prepare for national college entrance examination (SBMPTN).",
       "highlights": [
-        "Helped students solved math problems"
+        "Helped students solved math problems."
       ]
     }
   ],
@@ -118,63 +118,59 @@
       "studyType": "Bachelor",
       "startDate": "2015-07-01",
       "endDate": "2019-07-01",
-      "gpa": "3.23",
-      "courses": [
-      ]
+      "gpa": "3.24",
+      "courses": []
     }
   ],
-  "awards": [
-  ],
-  "publications": [
-  ],
+  "awards": [],
+  "publications": [],
   "skills": [
-    {
-      "name": "Web Development",
-      "level": "",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "JQuery",
-        "Bootstrap",
-        "Laravel",
-        "SQL"
-      ]
-    },
     {
       "name": "JavaScript",
       "level": "",
       "keywords": [
-        "Node.js",
-        "npm",
-        "TypeScript",
-        "Jest",
-        "Express.js",
         "Vue.js",
-        "ReactJS"
+        "VueX",
+        "ReactJS",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "Jest",
+        "TypeScript"
       ]
     },
     {
-      "name": "Java",
+      "name": "Back-end",
       "level": "",
       "keywords": [
-        "Java SDK"
+        "Python",
+        "Django",
+        "Django REST framework",
+        "Flask",
+        "PostgreSQL",
+        "SQL"
       ]
     },
     {
-      "name": "Python",
+      "name": "DevOps",
       "level": "",
       "keywords": [
-        "pip",
-        "Django"
+        "Docker",
+        "Kuberrnetes",
+        "AWS",
+        "Kops (Kubernetes Operations)",
+        "Gitlab CI/CD"
       ]
     },
     {
-      "name": "UNIX",
+      "name": "Others",
       "level": "",
       "keywords": [
-        "cli",
-        "GIT"
+        "Java",
+        "GIT",
+        "C++",
+        "WebGL",
+        "Machine Learning"
       ]
     }
   ],
@@ -188,8 +184,6 @@
       "fluency": "Professional working proficiency"
     }
   ],
-  "interests": [
-  ],
-  "references": [
-  ]
+  "interests": [],
+  "references": []
 }
