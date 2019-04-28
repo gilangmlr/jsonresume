@@ -37,7 +37,7 @@
       "highlights": [
         "Created Bukalapak's internal dashboard admin for Core Trust and Safety. (Vue.js, VueX, Vuetify, Express.js)",
         "Created Bukalapak's Vue UI Component Library. (Vue.js, Storybook, Jest, SASS)",
-        "Maintained Bukalapak's mobile web front end (Vue.js, VueX), Buakalapak's centralized front end documentations (Express.js), Bukalapak's front-end data tracking utility (JavaScript)."
+        "Maintained Bukalapak's mobile web (Vue.js, VueX), Bukalapak's centralized front-end documentations (Express.js), Bukalapak's front-end data tracking utility (JavaScript)."
       ]
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2019-04-07",
       "summary": "GoriTax is a curated tax and accounting experts as a service.",
       "highlights": [
-        "Designed the database, created the backend's RESTful API, and created the infrastructure. (SQL, PostgreSQL, Python, Django, Django REST framework, Docker, Kubernetes, AWS, Kops, Gitlab CI/CD)",
-        "Created the frontend with a front-end engineer. (ReactJS, Redux, Material-UI)"
+        "Designed the database (SQL, PostgreSQL), created the backend with a RESTful API (Python, Django, Django REST framework), and created the infrastructure (Docker, Kubernetes, AWS, Kops, Gitlab CI/CD).",
+        "Created the front-end with a front-end engineer. (ReactJS, Redux, Material-UI)"
       ]
     },
     {
@@ -65,14 +65,14 @@
     },
     {
       "company": "Computer Science Faculty of Universitas Indonesia",
-      "position": "Teaching Assitant",
+      "position": "Teaching Assistant",
       "website": "https://www.cs.ui.ac.id/",
       "startDate": "2017-09-01",
       "endDate": "2017-12-01",
       "summary": "Assisted the lecturer of Web Design and Programming (International Class) course",
       "highlights": [
         "Assisted students in lab sessions.",
-        "Created weekly lab tutorials with other assitants."
+        "Created weekly lab tutorials with other assistants."
       ]
     },
     {
@@ -83,7 +83,7 @@
       "endDate": "2017-02-01",
       "summary": "Jojonomic provides services that can easily control company expenses with Real Time Approval.",
       "highlights": [
-        "Developed web app features using HTML, CSS, JS."
+        "Developed the web app features using HTML, CSS, JS."
       ]
     }
   ],
@@ -96,7 +96,7 @@
       "endDate": "2016-09-01",
       "summary": "freeCodeCamp is a nonprofit organization that consists of an interactive learning web platform, an online community forum, chat rooms, Medium publications, and local organizations that intend to make learning web development accessible to anyone.",
       "highlights": [
-        "Achieved “Frond End Development Certification” from freeCodeCamp.",
+        "Achieved “Front-end Development Certification” from freeCodeCamp.",
         "Created several projects to achieve the certification which hosted at https://codepen.io/gilangmlr"
       ]
     },
