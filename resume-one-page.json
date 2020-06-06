@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "Gilang Gumilar",
+    "label": "Software Engineer",
+    "picture": "https://avatars3.githubusercontent.com/u/15117750",
+    "email": "gilangmlr@gmail.com",
+    "phone": "(+62) 813-8658-5941",
+    "website": "https://gilangmlr.github.io/",
+    "summary": "I love to solve problems using computer code. Life-long learner.",
+    "location": {
+      "address": "Pagedangan",
+      "postalCode": "15339",
+      "city": "Tangerang",
+      "countryCode": "ID",
+      "region": "Banten"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gilangmlr",
+        "url": "https://linkedin.com/in/gilangmlr"
+      },
+      {
+        "network": "GitLab",
+        "username": "gilangmlr",
+        "url": "https://gitlab.com/gilangmlr"
+      },
+      {
+        "network": "GitHub",
+        "username": "gilangmlr",
+        "url": "https://github.com/gilangmlr"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Traveloka",
+      "position": "Software Engineer",
+      "website": "https://www.traveloka.com/",
+      "startDate": "2019-06-10",
+      "summary": "Traveloka is an Indonesian unicorn company that provides airline ticketing, hotel booking services, and lifestyle products. I work as a fullstack engineer building Axes for Biz which is a public self-onboard platform of Traveloka Xperience products.",
+      "highlights": [
+        "Maintain and implement UI forms. (ReactJS, Next.js)",
+        "Design and implement database models and backend services of Axes for Biz. (PostgreSQL, Java)"
+      ]
+    },
+    {
+      "company": "Bukalapak",
+      "position": "Part-time Front-end Engineer",
+      "website": "https://www.bukalapak.com/",
+      "startDate": "2018-03-07",
+      "endDate": "2019-05-17"
+    },
+    {
+      "company": "Computer Science Faculty of Universitas Indonesia",
+      "position": "Teaching Assistant",
+      "website": "https://www.cs.ui.ac.id/",
+      "startDate": "2017-09-01",
+      "endDate": "2017-12-01"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "GitLab",
+      "position": "Community Contributor",
+      "startDate": "2020-03-02",
+      "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features.",
+      "highlights": [
+        "The second top contributor (57 MRs merged) of GitLab Hackathon Q2 2020."
+      ]
+    },
+    {
+      "organization": "BETIS by Computer Science Faculty's Student Council of Universitas Indonesia",
+      "position": "Math Tutor",
+      "startDate": "2016-04-01",
+      "endDate": "2016-05-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitas Indonesia",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2015-07-01",
+      "endDate": "2019-07-01",
+      "gpa": "3.24"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-end",
+      "keywords": [
+        "Vue.js",
+        "VueX",
+        "Nuxt.js",
+        "ReactJS",
+        "Redux",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Jest",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Back-end",
+      "keywords": [
+        "Python",
+        "Django",
+        "Django REST framework",
+        "Flask",
+        "PostgreSQL",
+        "SQL",
+        "Java"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Terraform",
+        "Kops (Kubernetes Operations)",
+        "Gitlab CI/CD",
+        "GCP"
+      ]
+    },
+    {
+      "name": "Others",
+      "keywords": ["GIT", "C++", "WebGL", "Machine Learning"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Indonesian",
+      "fluency": "Native proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ]
+}
