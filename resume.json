@@ -37,25 +37,13 @@
       "company": "Traveloka",
       "position": "Software Engineer",
       "website": "https://www.traveloka.com/",
-      "startDate": "2019-09-16",
-      "summary": "I work as a fullstack engineer building Axes for Biz which is a public self-onboard platform of Traveloka Xperience products.",
+      "startDate": "2019-06-10",
+      "summary": "Traveloka is an Indonesian unicorn company that provides airline ticketing, hotel booking services, and lifestyle products. I work as a full-stack engineer building Axes for Biz which is a public self-onboard platform of Traveloka Xperience products.",
       "highlights": [
         "Maintain and implement UI forms. (ReactJS, Next.js)",
-        "Design and implement database models and backend services of Axes for Biz. (PostgreSQL, Java)",
-        "Implement frontend CI/CD static web. (AWS, Terraform, Next.js)"
-      ]
-    },
-    {
-      "company": "Traveloka",
-      "position": "Software Engineer - Web",
-      "website": "https://www.traveloka.com/",
-      "startDate": "2019-06-10",
-      "endDate": "2019-09-15",
-      "summary": "Traveloka is an Indonesian unicorn company that provides airline ticketing, hotel booking services, and lifestyle products online expanding rapidly into Southeast Asia and Australia.",
-      "highlights": [
-        "Maintained internal supply dashboard admin of Traveloka Xperience (AXES). (ReactJS, Redux, Next.js)",
-        "Improved landing page performance (Lighthouse audit) by 154%. (ReactJS, Chrome DevTools)",
-        "Implemented Activity Log dashboard to query the changes history of the products data. (ReactJS, Redux, Next.js)"
+        "Improved the landing page performance (Lighthouse audit) by 154%. (ReactJS, Chrome DevTools)",
+        "Design and implement database models and backend services. (PostgreSQL, Java)",
+        "Implement a CI/CD of the static web frontend. (AWS, Terraform, Next.js)"
       ]
     },
     {
@@ -64,22 +52,22 @@
       "website": "https://www.bukalapak.com/",
       "startDate": "2018-03-07",
       "endDate": "2019-05-17",
-      "summary": "Continuing my employment in Bukalapak, I started to work as a Part-time Front-end Engineer.",
+      "summary": "Bukalapak is an Indonesian unicorn company and one of the leading online marketplaces in Indonesia.",
       "highlights": [
-        "Implemented internal dashboard admin of Core Trust and Safety team. (Vue.js, VueX, Vuetify, Express.js)",
-        "Implemented Vue UI Component Library. (Vue.js, Storybook, Jest, SASS)",
-        "Maintained mobile web (Vue.js, VueX, Nuxt.js), centralized front-end documentations (Express.js), and front-end data tracking utility. (JavaScript)"
+        "Implemented an internal dashboard of Core Trust and Safety team. (Vue.js, VueX, Vuetify, Express.js)",
+        "Implemented a Vue UI Component Library. (Vue.js, Storybook, Jest, SASS)",
+        "Maintained the mobile web (Vue.js, VueX, Nuxt.js), centralized front-end documentation (Express.js), and front-end data tracking utility. (JavaScript)"
       ]
     },
     {
       "company": "GoriTax",
-      "position": "Part-time Full Stack Engineer",
-      "website": "https://www.gori-tax.id/",
+      "position": "Part-time Full-stack Engineer",
+      "website": "https://www.goritax.com/",
       "startDate": "2019-01-07",
       "endDate": "2019-04-07",
       "summary": "GoriTax is a curated tax and accounting experts as a service.",
       "highlights": [
-        "Designed the database (SQL, PostgreSQL), created the back-end with a RESTful API (Python, Django, Django REST framework), and created the infrastructure (Docker, Kubernetes, AWS, Kops, Gitlab CI/CD).",
+        "Designed the database (SQL, PostgreSQL), created the back-end with a RESTful API (Python, Django, Django REST framework), and created the server infrastructure (Docker, Kubernetes, AWS, Kops, Gitlab CI/CD).",
         "Implemented the front-end with a front-end engineer. (ReactJS, Redux, Material-UI)"
       ]
     },
@@ -89,9 +77,9 @@
       "website": "https://www.bukalapak.com/",
       "startDate": "2017-12-27",
       "endDate": "2018-03-07",
-      "summary": "Bukalapak is one of the leading online marketplace in Indonesia and a Unicorn company, owned and run by PT. Bukalapak.",
+      "summary": "Bukalapak is an Indonesian unicorn company and one of the leading online marketplaces in Indonesia.",
       "highlights": [
-        "Rewrote the product detail page on mobile web using Vue.js and RESTful API. (Vue.js, VueX, Nuxt.js)"
+        "Rewrote the product detail page on the mobile web using Vue.js and RESTful API. (Vue.js, VueX, Nuxt.js)"
       ]
     },
     {
@@ -100,7 +88,7 @@
       "website": "https://www.cs.ui.ac.id/",
       "startDate": "2017-09-01",
       "endDate": "2017-12-01",
-      "summary": "Assisted the lecturer of Web Design and Programming (International Class) course",
+      "summary": "Assisted the lecturer of Web Design and Programming (International Class) course.",
       "highlights": [
         "Assisted students in lab sessions.",
         "Created weekly lab tutorials with other assistants."
@@ -112,7 +100,7 @@
       "website": "https://jojonomic.com/",
       "startDate": "2017-01-02",
       "endDate": "2017-02-01",
-      "summary": "Jojonomic provides services that can easily control company expenses with Real Time Approval.",
+      "summary": "Jojonomic provides services that can easily control company expenses with Real-Time Approval.",
       "highlights": ["Developed web app features using HTML, CSS, JS."]
     }
   ],
@@ -123,7 +111,7 @@
       "startDate": "2020-03-02",
       "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features.",
       "highlights": [
-        "The second top contributor (57 MRs merged) of GitLab Hackathon Q2 2020."
+        "The second most MRs merged (57 MRs merged) of GitLab Hackathon Q2'2020. (Vue.js, Ruby on Rails)"
       ]
     },
     {
@@ -142,7 +130,7 @@
       "studyType": "Bachelor",
       "startDate": "2015-07-01",
       "endDate": "2019-07-01",
-      "gpa": "3.24",
+      "gpa": "3.25",
       "courses": []
     }
   ],
@@ -177,12 +165,13 @@
       "level": "",
       "keywords": [
         "Python",
+        "Java",
+        "Ruby on Rails",
+        "SQL",
         "Django",
         "Django REST framework",
         "Flask",
-        "PostgreSQL",
-        "SQL",
-        "Java"
+        "PostgreSQL"
       ]
     },
     {
@@ -193,9 +182,9 @@
         "Kubernetes",
         "AWS",
         "Terraform",
-        "Kops (Kubernetes Operations)",
         "Gitlab CI/CD",
-        "GCP"
+        "GCP",
+        "Kops (Kubernetes Operations)"
       ]
     },
     {

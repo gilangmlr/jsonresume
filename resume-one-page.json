@@ -38,10 +38,12 @@
       "position": "Software Engineer",
       "website": "https://www.traveloka.com/",
       "startDate": "2019-06-10",
-      "summary": "Traveloka is an Indonesian unicorn company that provides airline ticketing, hotel booking services, and lifestyle products. I work as a fullstack engineer building Axes for Biz which is a public self-onboard platform of Traveloka Xperience products.",
+      "summary": "Traveloka is an Indonesian unicorn company that provides airline ticketing, hotel booking services, and lifestyle products. I work as a full-stack engineer building Axes for Biz which is a public self-onboard platform of Traveloka Xperience products.",
       "highlights": [
         "Maintain and implement UI forms. (ReactJS, Next.js)",
-        "Design and implement database models and backend services of Axes for Biz. (PostgreSQL, Java)"
+        "Improved the landing page performance (Lighthouse audit) by 154%. (ReactJS, Chrome DevTools)",
+        "Design and implement database models and backend services. (PostgreSQL, Java)",
+        "Implement a CI/CD of the static web frontend. (AWS, Terraform, Next.js)"
       ]
     },
     {
@@ -66,7 +68,7 @@
       "startDate": "2020-03-02",
       "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features.",
       "highlights": [
-        "The second top contributor (57 MRs merged) of GitLab Hackathon Q2 2020."
+        "The second most MRs merged (57 MRs merged) of GitLab Hackathon Q2'2020. (Vue.js, Ruby on Rails)"
       ]
     },
     {
@@ -83,12 +85,16 @@
       "studyType": "Bachelor",
       "startDate": "2015-07-01",
       "endDate": "2019-07-01",
-      "gpa": "3.24"
+      "gpa": "3.25",
+      "courses": []
     }
   ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
       "name": "Front-end",
+      "level": "",
       "keywords": [
         "Vue.js",
         "VueX",
@@ -104,30 +110,34 @@
     },
     {
       "name": "Back-end",
+      "level": "",
       "keywords": [
         "Python",
+        "Java",
+        "Ruby on Rails",
+        "SQL",
         "Django",
         "Django REST framework",
         "Flask",
-        "PostgreSQL",
-        "SQL",
-        "Java"
+        "PostgreSQL"
       ]
     },
     {
       "name": "DevOps",
+      "level": "",
       "keywords": [
         "Docker",
         "Kubernetes",
         "AWS",
         "Terraform",
-        "Kops (Kubernetes Operations)",
         "Gitlab CI/CD",
-        "GCP"
+        "GCP",
+        "Kops (Kubernetes Operations)"
       ]
     },
     {
       "name": "Others",
+      "level": "",
       "keywords": ["GIT", "C++", "WebGL", "Machine Learning"]
     }
   ],
@@ -140,5 +150,7 @@
       "language": "English",
       "fluency": "Professional working proficiency"
     }
-  ]
+  ],
+  "interests": [],
+  "references": []
 }
