@@ -1,0 +1,28 @@
+{
+  "name": "jsonresume",
+  "version": "1.0.0",
+  "description": "My jsonresume for [JSON Resume](https://jsonresume.org/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "patch-package": "^6.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilangmlr/jsonresume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilangmlr/jsonresume/issues"
+  },
+  "homepage": "https://github.com/gilangmlr/jsonresume#readme"
+}

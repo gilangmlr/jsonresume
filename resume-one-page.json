@@ -3,16 +3,14 @@
     "name": "Gilang Gumilar",
     "label": "Software Engineer",
     "picture": "https://avatars3.githubusercontent.com/u/15117750",
-    "email": "gilangmlr@gmail.com",
-    "phone": "(+62) 813-8658-5941",
+    "email": "gilangmlr+resume@gmail.com",
+    "phone": "+62 813 8658 5941",
     "website": "https://gilangmlr.github.io/",
-    "summary": "I love to solve problems using computer code. Life-long learner.",
+    "summary": "I like to code. Life-long learner.",
     "location": {
-      "address": "Pagedangan",
       "postalCode": "15339",
-      "city": "Tangerang",
       "countryCode": "ID",
-      "region": "Banten"
+      "region": "Greater Jakarta Area"
     },
     "profiles": [
       {
@@ -51,7 +49,8 @@
       "position": "Part-time Front-end Engineer",
       "website": "https://www.bukalapak.com/",
       "startDate": "2018-03-07",
-      "endDate": "2019-05-17"
+      "endDate": "2019-05-17",
+      "summary": "Bukalapak is an Indonesian unicorn company and one of the leading online marketplaces in Indonesia. I worked as a part-time front-end engineer at Core Front-end team."
     },
     {
       "company": "Computer Science Faculty of Universitas Indonesia",
@@ -134,21 +133,16 @@
         "GCP",
         "Kops (Kubernetes Operations)"
       ]
-    },
-    {
-      "name": "Others",
-      "level": "",
-      "keywords": ["GIT", "C++", "WebGL", "Machine Learning"]
     }
   ],
   "languages": [
     {
-      "language": "Indonesian",
-      "fluency": "Native proficiency"
-    },
-    {
       "language": "English",
       "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Indonesian",
+      "fluency": "Native proficiency"
     }
   ],
   "interests": [],

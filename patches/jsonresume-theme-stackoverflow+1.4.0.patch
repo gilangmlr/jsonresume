@@ -1,0 +1,344 @@
+diff --git a/node_modules/jsonresume-theme-stackoverflow/resume.hbs b/node_modules/jsonresume-theme-stackoverflow/resume.hbs
+index 0960829..c4d73fe 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/resume.hbs
++++ b/node_modules/jsonresume-theme-stackoverflow/resume.hbs
+@@ -18,12 +18,13 @@
+     {{> work }}
+     {{> projects }}
+     {{> volunteer }}
+-    {{> education }}
+     {{> awards }}
++    <div style="display: flex; justify-content: space-between">
++      {{> education }}
++      {{> languages }}
++    </div>
+     {{> publications }}
+-    {{> languages }}
+     {{> interests }}
+     {{> references }}
+-
+   </body>
+ </html>
+diff --git a/node_modules/jsonresume-theme-stackoverflow/style.css b/node_modules/jsonresume-theme-stackoverflow/style.css
+index dd0b94a..8b8ec7a 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/style.css
++++ b/node_modules/jsonresume-theme-stackoverflow/style.css
+@@ -230,8 +230,6 @@ section .location {
+     padding: 0;
+ }
+ 
+-#header>#profiles,
+-#header>#contact,
+ #skills,
+ #languages,
+ #interests {
+@@ -250,7 +248,7 @@ section .location {
+     line-height: 1.5;
+ }
+ 
+-#header>div>div {
++#header>div>div>div {
+     margin-right: 1.2em;
+ }
+ 
+@@ -268,7 +266,6 @@ section .location {
+ 
+ #header .picture {
+     width: 11em;
+-    float: right;
+     border-radius: 4px;
+ }
+ 
+@@ -495,11 +492,15 @@ ul.courses li:hover {
+ #languages .item,
+ #skills .item,
+ #interests .item {
+-    width: 15em;
+     padding: 0 .5em .5em 0;
+     border-bottom: none;
+ }
+ 
++#skills .item,
++#interests .item {
++    width: 15em;
++}
++
+ #skills .item {
+     width: 16em;
+ }
+@@ -582,6 +583,22 @@ ul.courses li:hover {
+     margin-bottom: .5rem;
+ }
+ 
++.d-flex {
++    display: flex;
++}
++
++.justify-content-between {
++    justify-content: space-between;
++}
++
++.align-items-center {
++    align-items: center;
++}
++
++.flex-row {
++    flex-direction: row;
++}
++
+ 
+ /****************
+ *		TABLET
+@@ -654,7 +671,6 @@ ul.courses li:hover {
+         word-break: normal;
+     }
+     .section header .date {
+-        float: right;
+         padding: .2em;
+     }
+     .display {
+diff --git a/node_modules/jsonresume-theme-stackoverflow/theme/partials/basics.hbs b/node_modules/jsonresume-theme-stackoverflow/theme/partials/basics.hbs
+index ab38b2e..0d67868 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/theme/partials/basics.hbs
++++ b/node_modules/jsonresume-theme-stackoverflow/theme/partials/basics.hbs
+@@ -1,81 +1,77 @@
+ {{#resume.basics}}
+-	<header id="header" class="clear">
+-		{{#if picture}}
+-		<img class="picture" src="{{picture}}" alt="{{name}}" />
+-		<div class="middle">
+-			<h1 class="name">{{name}}</h1>
+-			<h2 class="label">{{label}}</h2>
+-		</div>
+-		{{else}}
++	<header id="header" class="d-flex justify-content-between">
+ 		<div>
+ 			<h1 class="name">{{name}}</h1>
+ 			<h2 class="label">{{label}}</h2>
+-		</div>
+-		{{/if}} 
+ 		
+-		{{#location}}
+-		<span class="location">
+-			{{#if address}}
+-			<span class="address">{{address}},</span> 
+-			{{/if}}
+-			{{#if postalCode}}
+-			<span class="postalCode">{{postalCode}},</span> 
+-			{{/if}} 
+-			{{#if city}}
+-			<span class="city">{{city}},</span> 
+-			{{/if}} 
+-			{{#if region}}
+-			<span class="region">{{region}}</span> 
+-			{{/if}} 
+-			{{#if countryCode}}
+-			<span class="countryCode">{{countryCode}}</span> 
+-			{{/if}}
+-		</span>
+-		{{/location}} 
++			{{#location}}
++			<span class="location">
++				{{#if address}}
++				<span class="address">{{address}},</span> 
++				{{/if}}
++				{{#if postalCode}}
++				<span class="postalCode">{{postalCode}},</span> 
++				{{/if}} 
++				{{#if city}}
++				<span class="city">{{city}},</span> 
++				{{/if}} 
++				{{#if region}}
++				<span class="region">{{region}},</span> 
++				{{/if}} 
++				{{#if countryCode}}
++				<span class="countryCode">{{countryCode}}</span> 
++				{{/if}}
++			</span>
++			{{/location}} 
+ 			
+-		{{#birthDate birth}}
+-		{{/birthDate}}
++			{{#birthDate birth}}
++			{{/birthDate}}
+ 
+-		<div id="contact">
+-			{{#if website}}
+-			<div class="website">
+-				<span class="fa fa-external-link"></span>
+-				<a target="_blank" target="_blank" href="{{website}}">{{website}}</a>
+-			</div>
+-			{{/if}} 
+-			{{#if email}}
+-			<div class="email">
+-				<span class="fa fa-envelope-o"></span>
+-				<a href="mailto:{{email}}">{{email}}</a>
+-			</div>
+-			{{/if}} 
+-			{{#if phone}}
+-			<div class="phone">
+-				<span class="fa fa-mobile"></span>
+-				<a href="tel:{{phone}}">{{phone}}</a>
++			<div id="contact" class="d-flex">
++				{{#if website}}
++				<div class="website">
++					<span class="fa fa-external-link"></span>
++					<a target="_blank" target="_blank" href="{{website}}">{{website}}</a>
++				</div>
++				{{/if}} 
++				{{#if email}}
++				<div class="email">
++					<span class="fa fa-envelope-o"></span>
++					<a href="mailto:{{email}}">{{email}}</a>
++				</div>
++				{{/if}} 
++				{{#if phone}}
++				<div class="phone">
++					<span class="fa fa-mobile"></span>
++					<a href="tel:{{phone}}">{{phone}}</a>
++				</div>
++				{{/if}}
+ 			</div>
+-			{{/if}}
+-		</div>
+ 
+-		{{#if profiles.length}}
+-		<div id="profiles">
+-			{{#each profiles}}
+-			<div class="item">
+-				{{#if network}}
+-				<div class="username">
+-					<span class="fa fa-{{spaceToDash network}} {{spaceToDash network}} social"></span>
+-					{{#if url}}
+-					<span class="url">
+-						<a target="_blank" href="{{url}}">{{username}}</a>
+-					</span> 
+-					{{else}}
+-					<span>{{username}}</span>
++			{{#if profiles.length}}
++			<div id="profiles" class="d-flex">
++				{{#each profiles}}
++				<div class="item">
++					{{#if network}}
++					<div class="username">
++						<span class="fa fa-{{spaceToDash network}} {{spaceToDash network}} social"></span>
++						{{#if url}}
++						<span class="url">
++							<a target="_blank" href="{{url}}">{{username}}</a>
++						</span> 
++						{{else}}
++						<span>{{username}}</span>
++						{{/if}}
++					</div>
+ 					{{/if}}
+ 				</div>
+-				{{/if}}
++				{{/each}}
+ 			</div>
+-			{{/each}}
++			{{/if}}
+ 		</div>
++
++		{{#if picture}}
++		<img class="picture" src="{{picture}}" alt="{{name}}" />
+ 		{{/if}}
+ 	</header>
+ 
+diff --git a/node_modules/jsonresume-theme-stackoverflow/theme/partials/education.hbs b/node_modules/jsonresume-theme-stackoverflow/theme/partials/education.hbs
+index 82d3460..9677c1f 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/theme/partials/education.hbs
++++ b/node_modules/jsonresume-theme-stackoverflow/theme/partials/education.hbs
+@@ -1,5 +1,5 @@
+ {{#if resume.education.length}}
+-<section class="section">
++<section style="flex-basis: 49%;" class="section">
+   <header>
+     <h2 class='section-title'>Education <span class="item-count">({{resume.education.length}})</span></h2>
+   </header>
+diff --git a/node_modules/jsonresume-theme-stackoverflow/theme/partials/languages.hbs b/node_modules/jsonresume-theme-stackoverflow/theme/partials/languages.hbs
+index 70c9c34..e175227 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/theme/partials/languages.hbs
++++ b/node_modules/jsonresume-theme-stackoverflow/theme/partials/languages.hbs
+@@ -1,25 +1,31 @@
+ {{#if resume.languages.length}}
+-<section class="section margin1">
++<section style="flex-basis: 49%;" class="section margin1">
+   <header>
+     <h2 class='section-title'>Languages</h2>
+   </header>
+   <section id="languages">
+     {{#each resume.languages}}
+-    <div class="display">
+-      {{#if language}}
+-      <h3 class="language">
+-        {{language}}
+-      </h3>
++      {{#if @first}}
++      <div class="display">
++      {{else}}
++      <div style="margin-left: 1rem;" class="display">
+       {{/if}}
+-      <div class="item">
+-        {{#if fluency}}
+-        <div class="level fluency {{toLowerCase fluency}}">
+-          <em>{{fluency}}</em>
+-          <div class="bar"></div>
+-        </div>
++
++        {{#if language}}
++        <h3 class="language">
++          {{language}}
++        </h3>
+         {{/if}}
++        
++        <div class="item">
++          {{#if fluency}}
++          <div class="level fluency {{toLowerCase fluency}}">
++            <em>{{fluency}}</em>
++            <div class="bar"></div>
++          </div>
++          {{/if}}
++        </div>
+       </div>
+-    </div>
+     {{/each}}
+   </section>
+ </section>
+diff --git a/node_modules/jsonresume-theme-stackoverflow/theme/partials/volunteer.hbs b/node_modules/jsonresume-theme-stackoverflow/theme/partials/volunteer.hbs
+index dd62511..f3d76fe 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/theme/partials/volunteer.hbs
++++ b/node_modules/jsonresume-theme-stackoverflow/theme/partials/volunteer.hbs
+@@ -17,8 +17,8 @@
+         <label for="volunteer-item-{{@index}}"></label>
+       {{/if}}    
+ 
+-      <header>
+-        <div class="header-left">
++      <header class="d-flex justify-content-between align-items-center">
++        <div>
+           {{#if position}}
+           <div class="position">
+             {{position}}
+diff --git a/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs b/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs
+index 32a5e11..e45101e 100755
+--- a/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs
++++ b/node_modules/jsonresume-theme-stackoverflow/theme/partials/work.hbs
+@@ -18,11 +18,13 @@
+         <label for="work-item-{{@index}}"></label>
+       {{/if}}
+ 
+-			<header>
+-				{{#if position}}
+-				<div class="position">{{position}}</div>
+-				{{/if}}
+-				<div class="company">{{company}}</div>
++			<header class="d-flex justify-content-between align-items-center">
++				<div>
++					{{#if position}}
++					<div class="position">{{position}}</div>
++					{{/if}}
++					<div class="company">{{company}}</div>
++				</div>
+ 				<div class="date">
+           {{#if startDate}}
+ 				  <span class="startDate">{{MY startDate}}</span> 
