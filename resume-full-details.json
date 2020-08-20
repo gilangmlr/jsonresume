@@ -64,7 +64,7 @@
       "endDate": "2019-04-07",
       "summary": "GoriTax is a curated tax and accounting experts as a service.",
       "highlights": [
-        "Designed the database (SQL, PostgreSQL), created the back-end with a RESTful API (Python, Django, Django REST framework), and created the server infrastructure (Docker, Kubernetes, AWS, Kops, Gitlab CI/CD).",
+        "Designed the database (SQL, PostgreSQL), created the backend with a RESTful API (Python, Django, Django REST framework), and created the server infrastructure (Docker, Kubernetes, AWS, Kops, Gitlab CI/CD).",
         "Implemented the frontend with a frontend engineer. (ReactJS, Redux, Material-UI)"
       ]
     },
@@ -127,7 +127,6 @@
       "studyType": "Bachelor",
       "startDate": "2015-07-01",
       "endDate": "2019-07-01",
-      "gpa": "3.25",
       "courses": []
     }
   ],
@@ -158,7 +157,7 @@
       ]
     },
     {
-      "name": "Back-end",
+      "name": "Backend",
       "level": "",
       "keywords": [
         "Python",
