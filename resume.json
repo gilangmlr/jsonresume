@@ -2,11 +2,10 @@
   "basics": {
     "name": "Gilang Gumilar",
     "label": "Software Engineer",
-    "picture": "https://avatars3.githubusercontent.com/u/15117750",
     "email": "gilangmlr+resume@gmail.com",
     "phone": "+62 813 8658 5941",
-    "website": "https://gilangmlr.github.io/",
-    "summary": "I like to code. Life-long learner.",
+    "website": "https://gilangmlr.gitlab.io/",
+    "summary": "I have more than two years of demonstrated experience working as a software engineer at two unicorn startup companies based in Indonesia. I consider myself to be a life-long learner. I like to code and solve algorithmic problems with it.",
     "location": {
       "postalCode": "15339",
       "countryCode": "ID",
@@ -39,22 +38,22 @@
       "summary": "Traveloka is an Indonesian unicorn company that provides airline ticketing, hotel booking services, and lifestyle products. I work as a full-stack engineer building Axes for Biz which is a public self-onboard platform of Traveloka Xperience products.",
       "highlights": [
         "Maintain and implement UI forms. (ReactJS, Next.js)",
-        "Improved the landing page performance (Lighthouse audit) by 154%. (ReactJS, Chrome DevTools)",
+        "Improve the landing page performance (Lighthouse audit) by 154%. (ReactJS, Chrome DevTools)",
         "Design and implement database models and backend services. (PostgreSQL, Java)",
-        "Implement a CI/CD of the static web frontend. (AWS, Terraform, Next.js)"
+        "Implement a CI/CD of the static web frontend. (AWS, Terraform, Next.js)",
+        "Research and Implement a serverless stack. (AWS, Serverless Framework)"
       ]
     },
     {
       "company": "Bukalapak",
-      "position": "Part-time Front-end Engineer",
+      "position": "Part-time Frontend Engineer",
       "website": "https://www.bukalapak.com/",
       "startDate": "2018-03-07",
       "endDate": "2019-05-17",
-      "summary": "Bukalapak is an Indonesian unicorn company and one of the leading online marketplaces in Indonesia. I worked as a part-time front-end engineer at Core Front-end team.",
+      "summary": "Bukalapak is an Indonesian unicorn company and one of the leading online marketplaces in Indonesia. I worked as a part-time frontend engineer at Core Frontend team.",
       "highlights": [
         "Implemented an internal dashboard of Core Trust and Safety team. (Vue.js, VueX, Vuetify, Express.js)",
-        "Implemented a Vue UI Component Library. (Vue.js, Storybook, Jest, SASS)",
-        "Maintained the mobile web (Vue.js, VueX, Nuxt.js), centralized front-end documentation (Express.js), and front-end data tracking utility. (JavaScript)"
+        "Implemented a Vue UI Component Library. (Vue.js, Storybook, Jest, SASS)"
       ]
     },
     {
@@ -66,12 +65,12 @@
       "summary": "GoriTax is a curated tax and accounting experts as a service.",
       "highlights": [
         "Designed the database (SQL, PostgreSQL), created the back-end with a RESTful API (Python, Django, Django REST framework), and created the server infrastructure (Docker, Kubernetes, AWS, Kops, Gitlab CI/CD).",
-        "Implemented the front-end with a front-end engineer. (ReactJS, Redux, Material-UI)"
+        "Implemented the frontend with a frontend engineer. (ReactJS, Redux, Material-UI)"
       ]
     },
     {
       "company": "Bukalapak",
-      "position": "Front-end Engineer Intern",
+      "position": "Frontend Engineer Intern",
       "website": "https://www.bukalapak.com/",
       "startDate": "2017-12-27",
       "endDate": "2018-03-07",
@@ -113,7 +112,7 @@
       ]
     },
     {
-      "organization": "BETIS by Computer Science Faculty's Student Council of Universitas Indonesia",
+      "organization": "Computer Science Faculty's Student Council of Universitas Indonesia",
       "position": "Math Tutor",
       "startDate": "2016-04-01",
       "endDate": "2016-05-01",
@@ -134,16 +133,16 @@
   ],
   "awards": [
     {
-      "title": "Front-end Development Certification",
+      "title": "Frontend Development Certification",
       "date": "2016-09-01",
       "awarder": "freeCodeCamp",
-      "summary": "Achieved “Front-end Development Certification” from freeCodeCamp at https://www.freeCodeCamp.org/gilangmlr. Created several projects to achieve the certification which hosted at https://codepen.io/gilangmlr"
+      "summary": "Achieved “Frontend Development Certification” from freeCodeCamp at https://www.freeCodeCamp.org/gilangmlr. Created several projects to achieve the certification which hosted at https://codepen.io/gilangmlr"
     }
   ],
   "publications": [],
   "skills": [
     {
-      "name": "Front-end",
+      "name": "Frontend",
       "level": "",
       "keywords": [
         "Vue.js",
