@@ -106,9 +106,10 @@
       "organization": "GitLab",
       "position": "Community Contributor",
       "startDate": "2020-03-02",
-      "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features.",
+      "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features. (Vue.js, Ruby on Rails)",
       "highlights": [
-        "The second most MRs merged (57 MRs merged) of GitLab Hackathon Q2'2020. (Vue.js, Ruby on Rails)"
+        "The MVP of GitLab's 13.3 release.",
+        "The Grand Prize Winner of GitLab's Q2 Hackathon 2020."
       ]
     },
     {
