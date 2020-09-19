@@ -5,7 +5,7 @@
     "email": "gilangmlr+resume@gmail.com",
     "phone": "+62 813 8658 5941",
     "website": "https://gilangmlr.gitlab.io/",
-    "summary": "I have more than two years of demonstrated experience working as a software engineer at two unicorn startup companies based in Indonesia. I consider myself to be a life-long learner. I like to code and solve algorithmic problems with it.",
+    "summary": "I have three years of experience working as a software engineer at two unicorn startup companies based in Indonesia. I like to code and solve algorithmic problems. I consider myself to be a life-long learner. ",
     "location": {
       "postalCode": "15339",
       "countryCode": "ID",
@@ -38,7 +38,6 @@
       "summary": "Traveloka is an Indonesian unicorn company that provides airline ticketing, hotel booking services, and lifestyle products. I work as a full-stack engineer building Axes for Biz which is a public self-onboard platform of Traveloka Xperience products.",
       "highlights": [
         "Maintain and implement UI forms. (ReactJS, Next.js)",
-        "Improve the landing page performance (Lighthouse audit) by 154%. (ReactJS, Chrome DevTools)",
         "Design and implement database models and backend services. (PostgreSQL, Java)",
         "Implement a CI/CD of the static web frontend. (AWS, Terraform, Next.js)"
       ]
@@ -71,7 +70,8 @@
       "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features. (Vue.js, Ruby on Rails)",
       "highlights": [
         "The MVP of GitLab's 13.3 release.",
-        "The Grand Prize Winner of GitLab's Q2 Hackathon 2020."
+        "The Grand Prize Winner of GitLab's Q2 Hackathon 2020.",
+        "The Second Place Winner of GitLab's Q3 Hackathon 2020."
       ]
     },
     {
@@ -98,14 +98,12 @@
       "name": "Frontend",
       "level": "",
       "keywords": [
-        "Vue.js",
-        "VueX",
-        "Nuxt.js",
         "ReactJS",
         "Redux",
         "Next.js",
-        "Node.js",
-        "Express.js",
+        "Vue.js",
+        "VueX",
+        "Nuxt.js",
         "Jest",
         "TypeScript"
       ]
@@ -114,10 +112,12 @@
       "name": "Backend",
       "level": "",
       "keywords": [
+        "Node.js",
         "Python",
         "Java",
         "Ruby on Rails",
         "SQL",
+        "Express.js",
         "Django",
         "Django REST framework",
         "Flask",
