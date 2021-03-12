@@ -5,7 +5,7 @@
     "email": "gilangmlr+resume@gmail.com",
     "phone": "+62 813 8658 5941",
     "website": "https://gilangmlr.gitlab.io/",
-    "summary": "I have three years of experience working as a software engineer at two unicorn startup companies based in Indonesia. I like to code and solve algorithmic problems. I consider myself to be a life-long learner. ",
+    "summary": "I have three years of experience working as a software engineer at two unicorn startup companies based in Indonesia. I like exploring both frontend and backend technologies. I like coding and being a life-long learner.",
     "location": {
       "postalCode": "15339",
       "countryCode": "ID",
@@ -78,27 +78,6 @@
       "highlights": [
         "Rewrote the product detail page on the mobile web using Vue.js and RESTful API. (Vue.js, VueX, Nuxt.js)"
       ]
-    },
-    {
-      "company": "Computer Science Faculty of Universitas Indonesia",
-      "position": "Teaching Assistant",
-      "website": "https://www.cs.ui.ac.id/",
-      "startDate": "2017-09-01",
-      "endDate": "2017-12-01",
-      "summary": "Assisted the lecturer of Web Design and Programming (International Class) course.",
-      "highlights": [
-        "Assisted students in lab sessions.",
-        "Created weekly lab tutorials with other assistants."
-      ]
-    },
-    {
-      "company": "Jojonomic",
-      "position": "Web Developer Intern",
-      "website": "https://jojonomic.com/",
-      "startDate": "2017-01-02",
-      "endDate": "2017-02-01",
-      "summary": "Jojonomic provides services that can easily control company expenses with Real-Time Approval.",
-      "highlights": ["Developed web app features using HTML, CSS, JS."]
     }
   ],
   "volunteer": [
@@ -108,18 +87,12 @@
       "startDate": "2020-03-02",
       "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features. (Vue.js, Ruby on Rails)",
       "highlights": [
+        "GitLab Hero.",
+        "GitLab's 2020 SuperStar contributor.",
         "The MVP of GitLab's 13.3 release.",
         "The Grand Prize Winner of GitLab's Q2 Hackathon 2020.",
         "The Second Place Winner of GitLab's Q3 Hackathon 2020."
       ]
-    },
-    {
-      "organization": "Computer Science Faculty's Student Council of Universitas Indonesia",
-      "position": "Math Tutor",
-      "startDate": "2016-04-01",
-      "endDate": "2016-05-01",
-      "summary": "BETIS (Bimbingan Belajar Gratis) is a free tutoring program from Computer Science Faculty's Student Council for high school students or equivalent to prepare the national college entrance examination (SBMPTN).",
-      "highlights": ["Helped students solved math problems."]
     }
   ],
   "education": [
@@ -134,10 +107,10 @@
   ],
   "awards": [
     {
-      "title": "Frontend Development Certification",
-      "date": "2016-09-01",
-      "awarder": "freeCodeCamp",
-      "summary": "Achieved “Frontend Development Certification” from freeCodeCamp at https://www.freeCodeCamp.org/gilangmlr. Created several projects to achieve the certification which hosted at https://codepen.io/gilangmlr"
+      "title": "Triplebyte Certified Front End Engineer",
+      "date": "2020-08-20",
+      "awarder": "Triplebyte",
+      "summary": "I scored in the top 10% of test takers on the Triplebyte assessment for Front-end. This assessment covers general programmatic problem solving, JavaScript, CSS, HTTP, and full-stack architecture. https://triplebyte.com/tb/gilang-gumilar-chcqgkj/certificate/track/front-end"
     }
   ],
   "publications": [],

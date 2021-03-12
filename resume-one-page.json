@@ -5,7 +5,7 @@
     "email": "gilangmlr+resume@gmail.com",
     "phone": "+62 813 8658 5941",
     "website": "https://gilangmlr.gitlab.io/",
-    "summary": "I have three years of experience working as a software engineer at two unicorn startup companies based in Indonesia. I like to code and solve algorithmic problems. I consider myself to be a life-long learner. ",
+    "summary": "I have three years of experience working as a software engineer at two unicorn startup companies based in Indonesia. I like exploring both frontend and backend technologies. I like coding and being a life-long learner.",
     "location": {
       "postalCode": "15339",
       "countryCode": "ID",
@@ -53,13 +53,6 @@
         "Implemented an internal dashboard of Core Trust and Safety team. (Vue.js, VueX, Vuetify, Express.js)",
         "Implemented a Vue UI Component Library. (Vue.js, Storybook, Jest, SASS)"
       ]
-    },
-    {
-      "company": "Computer Science Faculty of Universitas Indonesia",
-      "position": "Teaching Assistant",
-      "website": "https://www.cs.ui.ac.id/",
-      "startDate": "2017-09-01",
-      "endDate": "2017-12-01"
     }
   ],
   "volunteer": [
@@ -69,16 +62,10 @@
       "startDate": "2020-03-02",
       "summary": "GitLab is an open source web-based DevOps lifecycle tool. I contribute to GitLab by fixing and implementing several features. (Vue.js, Ruby on Rails)",
       "highlights": [
-        "The MVP of GitLab's 13.3 release.",
-        "The Grand Prize Winner of GitLab's Q2 Hackathon 2020.",
-        "The Second Place Winner of GitLab's Q3 Hackathon 2020."
+        "GitLab Hero.",
+        "GitLab's 2020 SuperStar contributor.",
+        "The MVP of GitLab's 13.3 release."
       ]
-    },
-    {
-      "organization": "Computer Science Faculty's Student Council of Universitas Indonesia",
-      "position": "Math Tutor",
-      "startDate": "2016-04-01",
-      "endDate": "2016-05-01"
     }
   ],
   "education": [
@@ -91,7 +78,14 @@
       "courses": []
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Triplebyte Certified Front End Engineer",
+      "date": "2020-08-20",
+      "awarder": "Triplebyte",
+      "summary": "https://triplebyte.com/tb/gilang-gumilar-chcqgkj/certificate/track/front-end"
+    }
+  ],
   "publications": [],
   "skills": [
     {
